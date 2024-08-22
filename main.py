@@ -1,11 +1,28 @@
 import time
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
+
+
+# pip install beautifulsoup4 requests pandas
+
+# pip install openai --upgrade
+
+# pip install python-dotenv
+
+
+# Load environment variables from the .env file
+load_dotenv()
+
+# Now you can access the environment variable
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+
+# Use the environment variable in your script
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Enter your Assistant ID here.
-ASSISTANT_ID = "asst_xxx"
+ASSISTANT_ID = "asst_D9B3z3HYFdUoLqkIdwcHRdEw"
 
-# Make sure your API key is set as an environment variable.
-client = OpenAI()
 
 # Create a thread with a message.
 thread = client.beta.threads.create(
@@ -13,7 +30,7 @@ thread = client.beta.threads.create(
         {
             "role": "user",
             # Update this with the query you want to use.
-            "content": "What's the most livable city in the world?",
+            "content": "Give me a list of the alternative_titles.",
         }
     ]
 )
