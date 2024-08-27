@@ -37,7 +37,7 @@
 
 <p></p>
 
-<p>Enter the Assistant ID Here assuming you have already uploaded your data set</p>
+<p>Enter the Assistant ID Here assuming you have already uploaded your data set using the browser version</p>
 
 ![image](https://github.com/user-attachments/assets/108d30ce-5ca4-4b5b-a0a9-703f6ccf69f8)
 
