@@ -30,6 +30,35 @@
 
 ![API_KEY_PIC](https://github.com/user-attachments/assets/34a2eeda-20b5-4cb7-86ce-1d047c9c43d1)
 
+<p></p>
+
+![image](https://github.com/user-attachments/assets/56c2c572-1e2a-4555-b4ca-0d2af7761fbe)
+
+
+<p></p>
+
+<p>Enter the Assistant ID Here assuming you have already uploaded your data set</p>
+
+![image](https://github.com/user-attachments/assets/108d30ce-5ca4-4b5b-a0a9-703f6ccf69f8)
+
+
+<p></p>
+
+<p>Next is to enter your content as a prompt telling your assistant what to do. You just run your file and the prompt output will show up inside of the terminal</p>
+
+![image](https://github.com/user-attachments/assets/5ce95fde-d34c-4e0e-bd75-2e979a10716d)
+
+<p></p>
+
+![image](https://github.com/user-attachments/assets/6d6fc3a9-7da8-406f-9bbd-1e45baac6718)
+
+
+
+
+
+
+
+
 
 
 
