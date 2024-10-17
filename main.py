@@ -21,7 +21,7 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Enter your Assistant ID here.
-ASSISTANT_ID = "asst_*****"
+ASSISTANT_ID = "asst_VHUsedert1fAmMqSubO31QRf"
 
 
 # Create a thread with a message.
@@ -30,7 +30,7 @@ thread = client.beta.threads.create(
         {
             "role": "user",
             # Update this with the query you want to use.
-            "content": "Give me a list of the alternative_titles.",
+            "content": "5 * 5 + 15",
         }
     ]
 )
