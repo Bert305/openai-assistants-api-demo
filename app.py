@@ -5,6 +5,11 @@ from flask_cors import CORS
 from openai import OpenAI
 from dotenv import load_dotenv
 
+
+
+# Use Flask to create a web server for the HTML template to access the chatbot
+
+
 # Load environment variables
 load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
