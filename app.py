@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+Assistant_ID = os.getenv('Assistant_ID')
 
 # Initialize OpenAI client
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -23,8 +24,7 @@ CORS(app)  # Enable CORS for the entire Flask app
 def chatbot():
     data = request.json
     user_message = data.get("message", "")
-    assistant_id = "asst_VHUsedert1fAmMqSubO31QRf"
-
+    assistant_id = Assistant_ID
     # Create a thread with the user's message
     thread = client.beta.threads.create(
         messages=[{"role": "user", "content": user_message}]
