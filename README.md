@@ -1,7 +1,7 @@
 # OpenAI Assistants API Demo
 
 <p></p>
-<p>Welcome! Use this repo to create openAI Assistant on your openAI playground using <strong>access_open_ai_terminal.py</strong>, use a chatbot on <strong>create_open_ai-assistant.py</strong>, and you can utilize openAI as well through <strong>app.py</strong></p>
+<p>Welcome! Use this repo to create openAI Assistant on the fly on your openAI playground using <strong>create_open_ai-assistant.py</strong>, use a chatbot on <strong>access_open_ai_terminal.py</strong>, and you can utilize openAI as well through <strong>app.py</strong></p>
 <p></p>
 <p><strong>Prerequisites</strong></p>
 <p></p>
