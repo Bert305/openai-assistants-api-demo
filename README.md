@@ -1,7 +1,7 @@
 # OpenAI Assistants API Demo
 
 <p></p>
-<p>Welcome! Use this repo to create openAI Assistant on the fly on your openAI playground using <strong>create_open_ai-assistant.py</strong>, use a chatbot by starting the server with Flask with<strong>appy.py</strong>, and you can utilize openAI as well on your terminal with through <strong>access_open_ai_terminal.py</strong></p>
+<p>Welcome! Use this repo to create openAI Assistant on the fly on your openAI playground using <strong>create_open_ai-assistant.py</strong>, use a chatbot by starting the server with Flask with <strong>app.py</strong>, and you can utilize openAI as well on your terminal with through <strong>access_open_ai_terminal.py</strong></p>
 <p></p>
 <p><strong>Prerequisites</strong></p>
 <p></p>
